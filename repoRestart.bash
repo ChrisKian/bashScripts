@@ -34,7 +34,7 @@ resetMySQLDB() {
 	mysql -uroot -ptest -e "CREATE SCHEMA $dbName DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;"
 }
 
-buildAll() {
+repoRestart() {
 	if [ -z ${APP_SERVER_PROPS_FILENAME} ]; then
 		echo "Please set APP_SERVER_PROPS_FILENAME value in bashrc"
 		return
