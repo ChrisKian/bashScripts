@@ -1,3 +1,5 @@
+#!/bin/bash
+
 APP_SERVER_PROPS_FILENAME="app.server.liferay.properties"
 
 gitCleanup() {
