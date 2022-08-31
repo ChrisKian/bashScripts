@@ -38,4 +38,14 @@ Prereqs
 1. `pr.bash` added to `.bashrc` and sourced
 
 Usage:
-Run `pr [<githubId>] [<branchName>] [<newBranchName>] [-ee]
+Run `pr [githubId:branchName] [-ee]`
+
+Details:
+When wanting to forward a PR, or even fetch changes from a user's repo, it's necessary to sometimes pull said branch before sending it back to github.  With the pr() function, you can easily fetch, create a new branch, checkout (optional), push (optional), and generate a pull request link (optional).
+
+Once prereqs have been fulfilled, simply go to github and find the repo/branch you want to fetch.  If it's an open PR, there is a very handy "copy" button you can click to get the userName:branchName in that syntax (required for the pr() function).  Then run the function with the userName:branchName as the first argument, and optionally "-ee" as the second if working in the private repo, then follow the rest of the script's prompts
+
+ToDo:
+1. Include screenshots with usage
+2. Include the various prompts and example input
+3. Better name?
