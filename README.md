@@ -30,6 +30,8 @@ This script is a good way of starting your work week while checking emails, or b
 ToDo:
 1. Make the script run across all versions, so we run one command for all specified branches.
 2. Incorperate @holatuwol's IntelliJ script to also regenerate all the IML files, library descriptors, and the modules.xml file.
+3. (If running the ij script) Startup IntelliJ and run the invalidate cache/restart option to ensure everything is up-to-date.
+4. Start the bundle to populate tables.
 
 
 # pr
