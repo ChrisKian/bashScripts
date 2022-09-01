@@ -16,7 +16,7 @@ fi
 # repoRestart
 
 Prereqs:
-1. Modify `app.server.USERNAME.properties` to include the key `base.branch` witht he value of the base branch of the repo (master, 7.3.x, etc)
+1. Modify `app.server.USERNAME.properties` to include the key `base.branch` with the value of the base branch of the repo (master, 7.3.x, etc)
 2. (Optional) Modify `app.server.USERNAME.properties` to include the key `db.name` with the value being the name of the schema which your deployed bundle runs on (MySQL only!)
 3. `repoRestart.bash` added to `.bashrc` and sourced
 
